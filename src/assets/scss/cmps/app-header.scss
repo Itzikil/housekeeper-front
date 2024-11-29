@@ -1,0 +1,18 @@
+.app-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 32px;
+    padding-block: 16px;
+    align-items: center;
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    img {
+        width: 50px;
+        cursor: pointer;
+    }
+}

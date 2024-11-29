@@ -1,0 +1,14 @@
+.summary-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .input {
+        align-self: start;
+    }
+
+    form {
+        display: flex;
+        gap: 20px;
+    }
+}

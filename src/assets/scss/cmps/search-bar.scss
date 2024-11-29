@@ -1,0 +1,41 @@
+.search-container {
+    display: flex;
+    // max-width: 250px;
+    position: relative;
+
+    .input {
+        width: 100% !important;
+        // background-color: rgb(243, 247, 248);
+
+        &.show-border {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+
+    .suggestion-list {
+        position: absolute;
+        top: 8px;
+        background-color: rgb(221, 220, 231);
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 200px;
+        z-index: 100;
+        padding: 5px;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        li {
+            cursor: pointer;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-block: 2px;
+
+            &:hover {
+                background-color: rgb(227, 242, 245);
+            }
+        }
+    }
+}

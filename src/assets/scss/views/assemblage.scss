@@ -1,0 +1,27 @@
+.assemblage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+    button {
+        text-align: start;
+    }
+
+    .items-list{
+        width: 100%;
+        display: flex;
+        // flex-wrap: wrap;
+        // gap: 3%;
+        // li{
+        //     width: 91%;
+        // }
+    }
+    .supplier-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        // flex: 33%;
+    }
+}
